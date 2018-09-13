@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="47px" viewBox="0 0 45 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-436.000000, -281.000000)">
+            <g id="Slideshow" transform="translate(436.000000, 281.000000)">
+                <g id="icon">
+                    <path d="M27.4749595,37.9032258 L4.1007939,37.9032258 C0.62366954,37.9032258 -0.955967632,35.3692128 0.568580492,32.2515191 L12.4781439,7.89651836 C14.3881989,3.99046503 17.482503,3.98533854 19.3950648,7.89651836 L27.6187645,24.7139452 L30.4824022,19.1078184 C32.4628418,15.2307232 35.6720693,15.2273958 37.6542086,19.1078184 L44.3936813,32.3016448 C45.9739424,35.3953126 44.432583,37.9032258 40.954675,37.9032258 L27.4749595,37.9032258 Z M34.0683054,10.1392631 C31.3372521,10.1392631 29.123296,7.86951171 29.123296,5.06963153 C29.123296,2.26975135 31.3372521,0 34.0683054,0 C36.7993586,0 39.0133148,2.26975135 39.0133148,5.06963153 C39.0133148,7.86951171 36.7993586,10.1392631 34.0683054,10.1392631 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <ellipse id="Oval-2" fill="#FFFFFF" cx="13.5" cy="43.9677419" rx="3" ry="3.03225806"></ellipse>
+                    <ellipse id="Oval-2-Copy" stroke="#FFFFFF" stroke-width="1.5" cx="22.5" cy="43.9677419" rx="2.25" ry="2.28225806"></ellipse>
+                    <ellipse id="Oval-2-Copy-2" stroke="#FFFFFF" stroke-width="1.5" cx="31.5" cy="43.9677419" rx="2.25" ry="2.28225806"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

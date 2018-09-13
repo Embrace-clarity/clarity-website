@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
+	<mask id="fade-right-svg-mask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+		<linearGradient id="fade-right-svg-gradient" gradientUnits="objectBoundingBox" x2="1" y2="0">
+			<stop stop-color="white" stop-opacity="1" offset="0.75"></stop>
+			<stop stop-color="white" stop-opacity="0" offset="1"></stop>
+		</linearGradient>
+		<rect x="0" y="0" width="1" height="1" fill="url(#fade-right-svg-gradient)"></rect>
+	</mask>
+</svg>
