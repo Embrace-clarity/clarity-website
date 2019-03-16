@@ -479,6 +479,85 @@
         "owner": "internal-data-bridge"
       }
     },
+    "27a30560-09c7-5e4f-b3d0-a4921975e897": {
+      "resolve": "/home/i/clarity-website/node_modules/gatsby-plugin-google-analytics",
+      "id": "27a30560-09c7-5e4f-b3d0-a4921975e897",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-85886537-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "sampleRate": 5,
+        "siteSpeedSampleRate": 10,
+        "cookieDomain": "embraceclarity.com"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/i/clarity-website/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0bc27617004a6433b92ad7d1f6beac1e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
       "resolve": "/home/i/clarity-website/node_modules/gatsby-plugin-typography",
       "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
@@ -576,7 +655,7 @@
       "resolve": "/home/i/clarity-website",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "8b001766d6b67281c6c15324c4770d4f",
+      "version": "c70b3daf5f2f0e9e8f09a95c51385564",
       "pluginOptions": {
         "plugins": []
       },
@@ -597,6 +676,10 @@
           {
             "name": "gatsby",
             "version": "^2.1.31"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.17"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -672,7 +755,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9aca1af85dabfa1756aa599b58f00b29",
+        "contentDigest": "cf92613b6bb2b593f6aba7015bab6094",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -784,12 +867,12 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-16T00:49:35.208Z",
+      "buildTime": "2019-03-16T10:32:00.051Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1e8c19767f4dec1fc6d8ccaccf226dd5",
+        "contentDigest": "9ca95653588195f9d3a8645405e3d827",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -917,7 +1000,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ae9715316e9b6af2201a5b946729370b"
+    "PLUGINS_HASH": "fe6e33ee1caed04c28bd0d55a87e426f"
   },
   "componentDataDependencies": {
     "nodes": {},
