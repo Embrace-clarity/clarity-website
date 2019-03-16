@@ -7,13 +7,13 @@ module.exports = {
         name: "Emrbace Clarity",
         short_name: "EC",
         start_url: "/",
-        background_color: "#fffff",
-        theme_color: "#fffff",
+        background_color: "#fff",
+        theme_color: "#000",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "static/icon.png", // This path is relative to the root of the site.
-      },
+        icon: "static/icon.png" // This path is relative to the root of the site.
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -28,20 +28,20 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "embraceclarity.com",
-      },
+        cookieDomain: "embraceclarity.com"
+      }
     },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
-      },
+      }
     },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-  ],
-}
+        pathToConfigModule: `src/utils/typography`
+      }
+    }
+  ]
+};
