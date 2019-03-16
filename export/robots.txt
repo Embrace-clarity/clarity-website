@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: http://embraceclarity.com/sitemap.xml
