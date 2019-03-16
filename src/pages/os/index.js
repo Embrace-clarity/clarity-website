@@ -19,8 +19,8 @@ export default () => (
     <InnerContainer>
       <HeadingsContainer>
         <Heading mb={6} color='white'>
-          Inspired by present time. <br />
-          Designed for the future.
+          Atmosphere OS <br />
+          Designed for decentralisation.
         </Heading>
       </HeadingsContainer>
       <img src={osImage} alt='AOS Preview' />
