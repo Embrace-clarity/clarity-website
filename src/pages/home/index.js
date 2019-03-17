@@ -21,7 +21,7 @@ const HeadingsContainer = styled.div`
   }
 
   @media ${device.mobileL} {
-    width: 70%;
+    width: 90%;
   }
 `;
 

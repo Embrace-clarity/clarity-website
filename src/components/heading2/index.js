@@ -13,9 +13,9 @@ const Heading = styled.h2`
   }
 
   @media ${device.tablet} {
-    letter-spacing: -1px;
     column-count: 2;
     font-size: 32px;
+    line-height: 36px;
   }
 `;
 
