@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -15,6 +15,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     color: ${props => (props.white ? "white" : "black")};
   }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

@@ -6,7 +6,7 @@ import styled from "styled-components";
 import cover from "../../../static/cover.png";
 import Link from "../../components/link";
 import Heading from "../../components/heading";
-import { navigate } from "@reach/router";
+import { device } from "../../utils/device";
 
 const TextContainer = styled.div`
   justify-content: space-between;
@@ -16,7 +16,13 @@ const TextContainer = styled.div`
 `;
 
 const HeadingsContainer = styled.div`
-  max-width: 700px;
+  @media ${device.mobileS} {
+    width: 100%;
+  }
+
+  @media ${device.mobileL} {
+    width: 70%;
+  }
 `;
 
 const BottomLinksContainer = styled.div`

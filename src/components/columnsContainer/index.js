@@ -1,7 +1,7 @@
-import React from "react"
-import styled from "styled-components"
-import { device } from "../../utils/device"
-import { space } from "styled-system"
+import React from "react";
+import styled from "styled-components";
+import { device } from "../../utils/device";
+import { space } from "styled-system";
 
 const ColumnsContainer = styled.div`
   display: flex;
@@ -11,10 +11,10 @@ const ColumnsContainer = styled.div`
     flex-direction: column;
   }
 
-  @media ${device.tablet} {
+  @media ${device.mobileL} {
     flex-direction: row;
   }
-`
+`;
 export default ({ children, my }) => (
   <ColumnsContainer my={my}>{children}</ColumnsContainer>
-)
+);
