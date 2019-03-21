@@ -31,7 +31,7 @@ const BottomLinksContainer = styled.div`
 `;
 
 export default props => (
-  <Container background={cover} full>
+  <Container background={cover} full bg='black'>
     <InnerContainer full>
       <Logo />
       <TextContainer>
