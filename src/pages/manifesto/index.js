@@ -1,35 +1,35 @@
-import React from "react"
-import Container from "../../components/container"
-import InnerContainer from "../../components/innerContainer"
-import styled from "styled-components"
-import Heading from "../../components/heading"
-import Heading2 from "../../components/heading2"
-import Link from "../../components/link"
-import { space } from "styled-system"
+import React from "react";
+import Container from "../../components/container";
+import InnerContainer from "../../components/innerContainer";
+import styled from "styled-components";
+import Heading from "../../components/heading";
+import Heading2 from "../../components/heading2";
+import ALink from "../../components/aLink";
+import { space } from "styled-system";
 
 const HeadingsContainer = styled.div`
   max-width: 700px;
-`
+`;
 
 const ColumnsContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1;
   ${space}
-`
+`;
 
-const FooterContainer = styled.div``
+const FooterContainer = styled.div``;
 
 export default () => (
-  <Container bg="white">
+  <Container bg='white'>
     <InnerContainer>
       <HeadingsContainer>
-        <Heading mb={6} color="black">
+        <Heading mb={6} color='black'>
           Manifesto
         </Heading>
       </HeadingsContainer>
       <ColumnsContainer mb={5}>
-        <Heading2 color="lightblack" pr={4}>
+        <Heading2 color='lightblack' pr={4}>
           Our communication belongs to conglomerates designed to harvest data
           and capitalise on our privacy. For the past decade we've been the
           customer and the product, we've made the biggest even bigger and more
@@ -46,14 +46,14 @@ export default () => (
         </Heading2>
       </ColumnsContainer>
       <FooterContainer>
-        <Link
-          color="black"
-          href="https://spectrum.chat/embrace-clarity/general/how-to-contribute-design-code-ideas~d1a95605-b63a-497e-9cf7-416323953e77"
-          target="_blank"
+        <ALink
+          color='black'
+          href='https://spectrum.chat/embrace-clarity/general/how-to-contribute-design-code-ideas~d1a95605-b63a-497e-9cf7-416323953e77'
+          target='_blank'
         >
           Contribute
-        </Link>{" "}
+        </ALink>{" "}
       </FooterContainer>
     </InnerContainer>
   </Container>
-)
+);

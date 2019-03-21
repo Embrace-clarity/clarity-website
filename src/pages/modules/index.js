@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Column from "../../components/column";
 import Heading from "../../components/heading";
 import ColumnsContainer from "../../components/columnsContainer";
-import Link from "../../components/link";
+import ALink from "../../components/aLink";
 import modules from "../../../static/modules.png";
 
 const HeadingsContainer = styled.div`
@@ -15,7 +15,7 @@ const HeadingsContainer = styled.div`
 const FooterContainer = styled.div``;
 
 export default () => (
-  <Container>
+  <Container id='more'>
     <InnerContainer>
       <HeadingsContainer>
         <Heading mb={6}>
@@ -42,13 +42,13 @@ export default () => (
         />
       </ColumnsContainer>
       <FooterContainer>
-        <Link
+        <ALink
           color='black'
           href='https://spectrum.chat/embrace-clarity/general/how-to-contribute-design-code-ideas~d1a95605-b63a-497e-9cf7-416323953e77'
           target='_blank'
         >
           Contribute
-        </Link>{" "}
+        </ALink>{" "}
       </FooterContainer>
     </InnerContainer>
   </Container>

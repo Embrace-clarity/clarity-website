@@ -4,7 +4,8 @@ import InnerContainer from "../../components/innerContainer";
 import Logo from "../../components/logo";
 import styled from "styled-components";
 import cover from "../../../static/cover.png";
-import Link from "../../components/link";
+import ALink from "../../components/aLink";
+import GLink from "../../components/gLink";
 import Heading from "../../components/heading";
 import { device } from "../../utils/device";
 
@@ -26,10 +27,10 @@ const HeadingsContainer = styled.div`
 `;
 
 const BottomLinksContainer = styled.div`
-  display: flex;
+  height: 20px;
 `;
 
-export default () => (
+export default props => (
   <Container background={cover} full>
     <InnerContainer full>
       <Logo />
@@ -43,14 +44,17 @@ export default () => (
           </Heading>
         </HeadingsContainer>
         <BottomLinksContainer>
-          <Link
+          <ALink
             mr={3}
             color='white'
             href='https://spectrum.chat/embrace-clarity/general/how-to-contribute-design-code-ideas~d1a95605-b63a-497e-9cf7-416323953e77'
             target='_blank'
           >
             Contribute
-          </Link>
+          </ALink>
+          <GLink mr={3} color='white' to='/#more'>
+            Explore the project
+          </GLink>
         </BottomLinksContainer>
       </TextContainer>
     </InnerContainer>

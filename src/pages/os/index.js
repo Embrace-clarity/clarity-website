@@ -6,7 +6,7 @@ import Column from "../../components/column";
 import Heading from "../../components/heading";
 import ColumnsContainer from "../../components/columnsContainer";
 import osImage from "../../../static/os.png";
-import Link from "../../components/link";
+import ALink from "../../components/aLink";
 
 const HeadingsContainer = styled.div`
   max-width: 700px;
@@ -45,13 +45,13 @@ export default () => (
         />
       </ColumnsContainer>
       <FooterContainer>
-        <Link
+        <ALink
           color='white'
           href='https://spectrum.chat/embrace-clarity/general/how-to-contribute-design-code-ideas~d1a95605-b63a-497e-9cf7-416323953e77'
           target='_blank'
         >
           Contribute
-        </Link>
+        </ALink>
       </FooterContainer>
     </InnerContainer>
   </Container>

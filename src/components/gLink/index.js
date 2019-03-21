@@ -1,7 +1,8 @@
-import styled from "styled-components"
-import { color, space } from "styled-system"
+import styled from "styled-components";
+import { color, space } from "styled-system";
+import { Link } from "gatsby";
 
-const Link = styled.a`
+const GLink = styled(Link)`
   text-decoration: none;
   border-bottom: 1px;
   padding-bottom: 3px;
@@ -15,6 +16,6 @@ const Link = styled.a`
     border-bottom: 1px;
     padding-bottom: 1px;
   }
-`
+`;
 
-export default Link
+export default GLink;
