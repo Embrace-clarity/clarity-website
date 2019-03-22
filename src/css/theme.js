@@ -9,5 +9,9 @@ export default {
   },
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fontSizes: [16, 24, 32, 48, 64],
-  lineHeights: [1.5, 1.3, 1.2, 1.2, 1.2]
+  lineHeights: [1.4, 1.3, 1.2, 1.2, 1.2],
+  maxWidths: {
+    half: "50%",
+    full: "100%"
+  }
 };
