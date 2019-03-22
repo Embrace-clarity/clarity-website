@@ -9,14 +9,10 @@ import ALink from "../../components/aLink";
 import { space } from "styled-system";
 import { device } from "../../utils/device";
 
-const HeadingsContainer = styled.div`
-  max-width: 700px;
-`;
-
 const About = styled.div`
   display: flex;
   flex: 1;
-  max-width: 420px;
+  max-width: 70%;
   ${space}
 `;
 
@@ -41,13 +37,9 @@ const SocialContainer = styled.div`
 export default () => (
   <Container bg='grey'>
     <InnerContainer>
-      <HeadingsContainer>
-        <Heading mb={6} color='black'>
-          Contribute and make Embrace Clarity a reality.
-        </Heading>
-      </HeadingsContainer>
+      <Heading title='Contribute and make Embrace Clarity a reality.' />
       <About mb={5}>
-        <Text color='lightblack' pr={4}>
+        <Text>
           Clarity needs Software Engineers, Hardware Engineers, Product
           Designers, Industrial Designers, Copywriters, Project Managers, Token
           Experts, Blockchain developers and most of all Visionaries who seek to

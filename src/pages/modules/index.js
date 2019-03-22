@@ -7,24 +7,18 @@ import Heading from "../../components/heading";
 import ColumnsContainer from "../../components/columnsContainer";
 import ALink from "../../components/aLink";
 import modules from "../../../static/modules.png";
-
-const HeadingsContainer = styled.div`
-  max-width: 700px;
-`;
+import Image from "../../components/image";
 
 const FooterContainer = styled.div``;
 
 export default () => (
   <Container id='more'>
     <InnerContainer>
-      <HeadingsContainer>
-        <Heading mb={6}>
-          Inspired by present time. <br />
-          Designed for the future.
-        </Heading>
-      </HeadingsContainer>
-      <img src={modules} alt='Modules Preview' />
-      <ColumnsContainer my={5}>
+      <Heading title='Inspired by present time. Designed for the future.' />
+    </InnerContainer>
+    <Image src={modules} alt='Modules Preview' />
+    <InnerContainer>
+      <ColumnsContainer mb={5}>
         <Column
           title='Open Source'
           subtitle='Future is transparent and everyone should be able to contribute to it.'

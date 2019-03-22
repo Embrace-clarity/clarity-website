@@ -7,10 +7,6 @@ import Heading2 from "../../components/heading2";
 import ALink from "../../components/aLink";
 import { space } from "styled-system";
 
-const HeadingsContainer = styled.div`
-  max-width: 700px;
-`;
-
 const ColumnsContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -23,13 +19,9 @@ const FooterContainer = styled.div``;
 export default () => (
   <Container bg='white'>
     <InnerContainer>
-      <HeadingsContainer>
-        <Heading mb={6} color='black'>
-          Manifesto
-        </Heading>
-      </HeadingsContainer>
+      <Heading title='Manifesto' />
       <ColumnsContainer mb={5}>
-        <Heading2 color='lightblack' pr={4}>
+        <Heading2 color='lightblack'>
           Our communication belongs to conglomerates designed to harvest data
           and capitalise on our privacy. For the past decade we've been the
           customer and the product, we've made the biggest even bigger and more

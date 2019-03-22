@@ -7,24 +7,21 @@ import Heading from "../../components/heading";
 import ColumnsContainer from "../../components/columnsContainer";
 import osImage from "../../../static/os.png";
 import ALink from "../../components/aLink";
-
-const HeadingsContainer = styled.div`
-  max-width: 700px;
-`;
+import Image from "../../components/image";
 
 const FooterContainer = styled.div``;
 
 export default () => (
   <Container bg='black'>
     <InnerContainer>
-      <HeadingsContainer>
-        <Heading mb={6} color='white'>
-          Atmosphere OS <br />
-          Designed for decentralisation.
-        </Heading>
-      </HeadingsContainer>
-      <img src={osImage} alt='AOS Preview' />
-      <ColumnsContainer my={5}>
+      <Heading
+        color='white'
+        title='Atmosphere OS Designed for decentralisation.'
+      />
+    </InnerContainer>
+    <Image src={osImage} alt='AOS Preview' />
+    <InnerContainer>
+      <ColumnsContainer mb={5}>
         <Column
           title='Decentralised'
           subtitle='Native support for all major decentralised networks like Ethereum, IPFS, Dat and others.'

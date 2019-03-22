@@ -10,12 +10,11 @@ import Heading from "../../components/heading";
 import { device } from "../../utils/device";
 
 const TextContainer = styled.div`
-  justify-content: space-between;
   display: flex;
   flex-direction: column;
   flex: 1;
+  justify-content: space-between;
 `;
-
 const HeadingsContainer = styled.div`
   @media ${device.mobileS} {
     width: 100%;
@@ -30,20 +29,13 @@ const BottomLinksContainer = styled.div`
   height: 20px;
 `;
 
-export default props => (
+export default () => (
   <Container background={cover} full bg='black'>
-    <InnerContainer full>
+    <InnerContainer>
       <Logo />
       <TextContainer>
-        <HeadingsContainer>
-          <Heading color='white'>
-            Clarity is a decentralised communication device.
-          </Heading>
-          <Heading color='lightwhite'>
-            Let's make communication a common good.
-          </Heading>
-        </HeadingsContainer>
-        <BottomLinksContainer>
+      <Heading color="white" title='Clarity is making communication a common good through open source and decentralisation.' />
+         <BottomLinksContainer>
           <ALink
             mr={3}
             color='white'

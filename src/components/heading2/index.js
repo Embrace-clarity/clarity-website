@@ -1,22 +1,17 @@
+import React from "react";
 import styled from "styled-components";
-import { color, space } from "styled-system";
-import { device } from "../../utils/device";
+import { color, space, fontSize, lineHeight } from "styled-system";
 
-const Heading = styled.h2`
+const Heading2 = styled.h2`
+${fontSize}
   ${color}
   ${space}
-  @media ${device.mobileS} {
-    letter-spacing: -0.2px;
-    column-count: 1;
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  @media ${device.tablet} {
-    column-count: 2;
-    font-size: 32px;
-    line-height: 36px;
-  }
+  ${fontSize}
+  ${lineHeight}
 `;
 
-export default Heading;
+export default ({ children, color }) => (
+  <Heading2 color={color} mb={6} fontSize={[1, 2]} lineHeight={[1, 2]}>
+    {children}
+  </Heading2>
+);

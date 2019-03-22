@@ -15,6 +15,6 @@ const ColumnsContainer = styled.div`
     flex-direction: row;
   }
 `;
-export default ({ children, my }) => (
-  <ColumnsContainer my={my}>{children}</ColumnsContainer>
+export default ({ children, mb }) => (
+  <ColumnsContainer mb={mb}>{children}</ColumnsContainer>
 );

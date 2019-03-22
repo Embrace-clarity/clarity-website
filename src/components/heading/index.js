@@ -1,6 +1,6 @@
+import React from "react";
 import styled from "styled-components";
 import { color, space, fontSize } from "styled-system";
-import { device } from "../../utils/device";
 
 const Heading = styled.h1`
   ${fontSize}
@@ -8,4 +8,14 @@ const Heading = styled.h1`
   ${space}
 `;
 
-export default Heading;
+const HeadingsContainer = styled.div`
+  max-width: 700px;
+`;
+
+export default ({ title, color }) => (
+  <HeadingsContainer>
+    <Heading color={color} mb={6} fontSize={[2, 3]}>
+      {title}
+    </Heading>
+  </HeadingsContainer>
+);
